@@ -1,3 +1,5 @@
+import React from "react";
+
 function MovieCard({ movie }) {
   function onfavouriteclick() {
     alert("clicked");
@@ -9,16 +11,15 @@ function MovieCard({ movie }) {
         <img src={movie.url} alt={movie.title} />
         <div className="movie-button">
           <button className="favorite-btn" onClick={onfavouriteclick}>
-            ❤️
+            ♡
           </button>
         </div>
       </div>
       <div className="movie-info">
-        <h3>
-            {movie.title}
-        </h3>
+        <h3>{movie.title}</h3>
         <p>{movie.release_date}</p>
       </div>
     </div>
   );
 }
+export default MovieCard;

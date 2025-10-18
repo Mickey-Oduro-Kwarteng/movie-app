@@ -1,19 +1,8 @@
-
-import './App.css'
-
+import "./App.css";
+import Moviecard from "./components/moviecard.jsx";
 function App() {
-
-  return(
- 
- <div>
-    <p>Hello World</p>
-
-  </div>
-  )
-  
+  const Movienumber = 1;
+  return <></>;
 }
 
-
-  
-
-export default App
+export default App;
