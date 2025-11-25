@@ -1,8 +1,11 @@
 import "./App.css";
-import Moviecard from "./components/moviecard.jsx";
+import Home from "../pages/Home";
 function App() {
-  const Movienumber = 1;
-  return <></>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
